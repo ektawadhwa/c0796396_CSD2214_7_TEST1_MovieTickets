@@ -10,7 +10,7 @@
         <h1> WELCOME FOR BOOKING MOVIE TICKETS</h1>
         <article>
             <form id="Select_movie" name="select movie" method="GET">
-                <label> Select the Movie</label>
+                <label> Pick a Movie</label>
                 <select id="movies">
                     <option value="movies"> Movies</option>
                     <option value="Action Replay"> Action Replay($18.0) </option>
@@ -19,7 +19,7 @@
                 </select>
             </form>
             <section>
-                <h5> Buy Seats</h5>
+                <h5> Select the Seats </h5>
                 <table>
                     <tr>
                         <td><input type="checkbox" class="seats" value="A1"></td>
@@ -94,10 +94,14 @@
                         <td><input type="checkbox" class="seats" value="F10"></td>
                     </tr>
                 </table>
-                <input type="checkbox"> <label> Available Seats</label>
-                <input type="checkbox"> <label> Selected Seats</label>
-                <input type="checkbox"> <label> Occupied Seats</label>
+                <div>
+                    <input type="button" style= "background: gray ;" class="Available"> <label> Available Seat </label>
+                    <input type="button" style="background: green;" class="Selected"> <label> Selected Seat</label>
+                    <input type="button" style="background: red;" class="Occupied"> <label> Occupied Seat</label>
+                </div>
+             
             </section>
         </article>
+    </table>
     </body>
 </html>
