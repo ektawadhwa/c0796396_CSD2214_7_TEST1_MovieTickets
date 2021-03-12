@@ -4,14 +4,37 @@
         <title> </title>
         <meta charset="utf-8" content="width-device-width" scale="1.0">
         <link rel="stylesheet" href="css/index.css" type="text/css">
-        <script src="js/index.js"></script>
+        <script src="js/index.js" defer></script>
     </head>
     <body>
         <h1> WELCOME FOR BOOKING MOVIE TICKETS</h1>
         <article>
             <form id="Select_movie" name="select movie" method="GET">
-                
+                <label> Select the Movie</label>
+                <select id="movies">
+                    <option value="movies"> Movies</option>
+                    <option value="Action Replay"> Action Replay($18.0) </option>
+                    <option value="The Marshell"> The Marshell($16.50)</option>
+                    <option value="The Real Man"> The Real Man($20.0)</option>
+                </select>
             </form>
+            <section>
+                <h5> Buy Seats</h5>
+                <table>
+                    <tr>
+                        <td><input type="checkbox" class="seats" value="A1"></td>
+                        <td><input type="checkbox" class="seats" value="A2"></td>
+                        <td><input type="checkbox" class="seats" value="A3"></td>
+                        <td><input type="checkbox" class="seats" value="A4"></td>
+                        <td><input type="checkbox" class="seats" value="A5"></td>
+                        <td><input type="checkbox" class="seats" value="A6"></td>
+                        <td><input type="checkbox" class="seats" value="A7"></td>
+                        <td><input type="checkbox" class="seats" value="A8"></td>
+                        <td><input type="checkbox" class="seats" value="A9"></td>
+                        <td><input type="checkbox" class="seats" value="A10"></td>
+                    </tr>
+                </table>
+            </section>
         </article>
     </body>
 </html>
